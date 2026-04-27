@@ -24,3 +24,15 @@
 [2026-04-27T14:53:19.194Z] info: DELETE /api/v1/users/update/15e626a1-c0b7-40e1-ba77-d565d768bcf6 404 198 - 2.410 ms
 [2026-04-27T14:53:28.304Z] info: DELETE /api/v1/users/delete/15e626a1-c0b7-40e1-ba77-d565d768bcf6 204 - - 27.955 ms
 [2026-04-27T14:53:37.042Z] info: GET /api/v1/users/all 404 68 - 8.940 ms
+[2026-04-27T18:35:55.359Z] info: POST /api/v1/auth/login 401 67 - 354.869 ms
+[2026-04-27T18:36:05.311Z] info: POST /api/v1/users/create 201 248 - 204.811 ms
+[2026-04-27T18:36:14.581Z] info: POST /api/v1/auth/login 200 245 - 147.801 ms
+[2026-04-27T18:37:25.785Z] info: POST /api/v2/categories/create 201 164 - 20.745 ms
+[2026-04-27T18:37:32.118Z] info: POST /api/v2/categories/create 409 36 - 67.639 ms
+[2026-04-27T18:38:00.325Z] info: POST /api/v2/categories/create 201 205 - 27.324 ms
+[2026-04-27T18:38:19.261Z] info: GET /api/v2/categories/all 200 372 - 19.597 ms
+[2026-04-27T18:38:31.822Z] info: GET /api/v2/categories/find/id/d59e341c-2f37-48c8-9d80-b124180220b8 200 205 - 16.352 ms
+[2026-04-27T18:38:37.330Z] info: GET /api/v2/categories/expenses/d59e341c-2f37-48c8-9d80-b124180220b8 404 69 - 17.204 ms
+[2026-04-27T18:39:04.557Z] info: PUT /api/v2/categories/update/7c40f160-70bb-4d51-8ec4-2b46140cdd4f 201 177 - 24.637 ms
+[2026-04-27T18:39:17.098Z] info: DELETE /api/v2/categories/delete/d59e341c-2f37-48c8-9d80-b124180220b8 204 - - 23.628 ms
+[2026-04-27T18:39:21.838Z] info: GET /api/v2/categories/all 200 179 - 2.411 ms
